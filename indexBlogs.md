@@ -43,7 +43,20 @@ title: Blogs
 <ul>
     <li>git pull Error<br>
         <img src="images/git_pull_err.png" alt="git_pull_error" style="height:50px;width:500px">
-    </li>    
+    </li>
+    <br>
+    <li>push error
+        <br>
+        <img src="images/push_error.png" alt="push_error" height="100" width="350">    
+    </li>
+    <br>
+    <li>pull error happens after push error above<br>
+        <img src="images/pull_error.png" alt="pull_error" height="100" width="350">
+    </li>
+    <br>    
+    <li>sync error<br>
+        <img src="images/syncerror.png" alt="sync_error" height="100" width="350">
+    </li>
 </ul>
 
 <!-- 
