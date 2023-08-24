@@ -14,6 +14,7 @@ title: Blogs
     <li>Take a Break to Solve a problem</li>
     <li>Have an outline of desired code (pseudocode)</li>
     <li>Make code rememberable (comments, meaningful variables)</li>
+    <li>Markdown translates into HTML code</li>
 
 </ul>
 <h1>Fixed Errors</h1>
