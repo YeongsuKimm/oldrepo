@@ -40,6 +40,7 @@ Blogging in GitHub pages is a way to learn and code at the same time.
 <h1>To-do List</h1>
 <ol id="to-do">
     <li>Make to-do items permanent</li>
+    <li>Add ongoing errors to fixed errors</li>
 </ol>
 
 <html>
