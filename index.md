@@ -21,7 +21,7 @@ Blogging in GitHub pages is a way to learn and code at the same time.
 
 
 <h2>About Me:</h2>
-<p style="float:right;clear:right;display:block;padding-right:200px"><img src="images/about-me.png" alt="about-me" style="width:220px;height:280px"></p>
+<p style="float:right;clear:right;display:block;padding-right:200px"><img src="images/about_me.png" alt="about-me" style="width:220px;height:280px"></p>
 <div style="padding-left:1em">    
     <ol style="font-size:15px">
         <li>I was born in South Korea</li>
@@ -40,7 +40,6 @@ Blogging in GitHub pages is a way to learn and code at the same time.
 <h1>To-do List</h1>
 <ol id="to-do">
     <li>Make to-do items permanent</li>
-    <li>Add ongoing errors to fixed errors</li>
 </ol>
 
 <html>
