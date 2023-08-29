@@ -3,20 +3,40 @@
 permalink: /blogs
 title: Blogs
 ---
-<h1>Hacks</h1>
-<ul>
-    <li></li>
-</ul>
-<h1>Notes</h1>
-<ul>
-    <li>cd changes directories</li>
-    <li>Do the hardest task first</li>
-    <li>Take a Break to Solve a problem</li>
-    <li>Have an outline of desired code (pseudocode)</li>
-    <li>Make code rememberable (comments, meaningful variables)</li>
-    <li>Markdown translates into HTML code</li>
-
-</ul>
+<h1>Unit 1: Build a Lab Notebook</h1>
+<table>
+    <tr>
+        <th>Week</th>
+        <th>Plan</th>
+        <th>Hacks (IPYNB)</th>
+        <th>Tangibles</th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td></td>
+        <td></td>
+        <td><a href="{{site.baseurl}}/games">Games & Projects</a></td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+<br><br><br><br>
 <h1>Fixed Errors</h1>
 <ul>
     <li style="font-size:15px">
@@ -42,22 +62,6 @@ title: Blogs
 </ul>
 <h1>Ongoing Errors</h1>
 <ul>
-    <!-- <li>git pull Error<br>
-        <img src="images/git_pull_err.png" alt="git_pull_error" style="height:50px;width:500px">
-    </li> -->
-    <br>
-    <li>push error
-        <br>
-        <img src="images/push_error.png" alt="push_error" height="100" width="350">    
-    </li>
-    <br>
-    <li>pull error happens after push error above<br>
-        <img src="images/pull_error.png" alt="pull_error" height="100" width="350">
-    </li>
-    <br>    
-    <li>sync error<br>
-        <img src="images/syncerror.png" alt="sync_error" height="100" width="350">
-    </li>
 </ul>
 
 <!-- 

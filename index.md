@@ -19,7 +19,7 @@ Blogging in GitHub pages is a way to learn and code at the same time.
 <button class="button_above" onclick="window.location.href='https://app.slack.com/client/TUDAF53UJ/CUU064ACX';">Slack</button>
 
 <h2>About Me:</h2>
-<p style="float:right;clear:right;display:block;padding-right:200px"><img src="images/about_me.png" alt="about-me" style="width:220px;height:280px"></p>
+<p style="float:right;clear:right;display:block;padding-right:500px"><img src="images/about_me.png" alt="about-me" style="width:220px;height:280px"></p>
 <div style="padding-left:">    
     <ol style="font-size:15px">
         <li>I was born in South Korea</li>
@@ -37,7 +37,6 @@ Blogging in GitHub pages is a way to learn and code at the same time.
 <button class="note_button" onclick="createItem()">Create a note</button>
 <h1>Notepad</h1>
 <ol id="note">
-    <li>Add fixed errors from ongoing</li>
 </ol>
 
 <html>
@@ -51,28 +50,6 @@ Blogging in GitHub pages is a way to learn and code at the same time.
             }
             .note_button:hover {
                 background-color:white;
-            }
-            .cal_button {
-                background-color:#af0011;
-                color: white;
-                border-radius:8px;
-                /* padding: 30px 30px; */
-                transition-duration:0.4s;
-                /* position:relative; */
-                left:100px;
-                font-size:30px;
-                color:white;
-                width:157px;
-                height:100px;
-            }
-            .cal_button:hover {
-                background-color:black;
-            }
-            #display {
-                text-align:center;
-                height:75px;
-                width:630px;
-                font-size:65px;
             }
             .button_above {
                 border:black;
@@ -88,24 +65,6 @@ Blogging in GitHub pages is a way to learn and code at the same time.
         </style>
     </head>
     <body>
-        <h1>Simple Calculator</h1>
-        <input type="text" id="display" disabled><br>
-        <button onclick="appendToDisplay('7')" class="cal_button">7</button>
-        <button onclick="appendToDisplay('8')" class="cal_button">8</button>
-        <button onclick="appendToDisplay('9')" class="cal_button">9</button>
-        <button onclick="appendToDisplay('+')" class="cal_button">+</button><br>
-        <button onclick="appendToDisplay('4')" class="cal_button">4</button>
-        <button onclick="appendToDisplay('5')" class="cal_button">5</button>
-        <button onclick="appendToDisplay('6')" class="cal_button">6</button>
-        <button onclick="appendToDisplay('-')" class="cal_button">-</button><br>
-        <button onclick="appendToDisplay('1')" class="cal_button">1</button>
-        <button onclick="appendToDisplay('2')" class="cal_button">2</button>
-        <button onclick="appendToDisplay('3')" class="cal_button">3</button>
-        <button onclick="appendToDisplay('*')" class="cal_button">*</button><br>
-        <button onclick="appendToDisplay('0')" class="cal_button">0</button>
-        <button onclick="clearDisplay()" class="cal_button">C</button>
-        <button onclick="calculateResult()" class="cal_button">=</button>
-        <button onclick="appendToDisplay('/')" class="cal_button">/</button><br>
         <script>
             function createItem()
             {
@@ -116,21 +75,6 @@ Blogging in GitHub pages is a way to learn and code at the same time.
                 var location = document.getElementById("note");
                 // note.appendChild(document.createTextNode(item)); -- set item to note
                 location.appendChild(note);
-            }
-            function appendToDisplay(value) {
-                document.getElementById("display").value += value;
-            }
-            function clearDisplay() {
-                document.getElementById("display").value = "";
-            }
-            function calculateResult() {
-                try {
-                    const expression = document.getElementById("display").value;
-                    const result = eval(expression);
-                    document.getElementById("display").value = result;
-                } catch (error) {
-                    document.getElementById("display").value = "Error";
-                }
             }
         </script>
     </body>
