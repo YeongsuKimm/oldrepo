@@ -13,7 +13,7 @@ title: Blogs
     </tr>
     <tr>
         <td>0</td>
-        <td></td>
+        <td><a>Add wsl, github, and vscode</a></td>
         <td></td>
         <td><a href="{{site.baseurl}}/games">Games & Projects</a></td>
     </tr>

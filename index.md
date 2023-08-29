@@ -20,7 +20,7 @@ Blogging in GitHub pages is a way to learn and code at the same time.
 
 <h2>About Me:</h2>
 <p style="float:right;clear:right;display:block;padding-right:500px"><img src="images/about_me.png" alt="about-me" style="width:220px;height:280px"></p>
-<div style="padding-left:">    
+<div>    
     <ol style="font-size:15px">
         <li>I was born in South Korea</li>
         <br>

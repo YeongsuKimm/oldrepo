@@ -110,12 +110,12 @@ course: Games & Projects
         <h1>Word Guessing Game</h1>
         <p>Guess the word: <span id="word-display"></span></p>
         <p>Guesses left: <span id="guesses-left"></span></p>
-        <input type="text" id="guess-input" placeholder="Enter a letter">
-        <button id="guess-button">Guess</button>
+        <input type="text" id="guess-input" placeholder="Enter a letter" style="width:100px;height:44px; font-size:15px">
+        <button id="guess-button" style="width:50px;height:50px">Guess</button>
         <p id="message"></p>
     </div>
     <script>
-        const words = ["apple", "banana", "cherry", "grape", "kiwi", "orange", "strawberry"];
+        const words = ["advance","soup","refuse", "fill", "excess", "sun", "reference"];
         let selectedWord = "";
         let guessedWord = [];
         let guessesLeft = 6;
@@ -126,7 +126,7 @@ course: Games & Projects
         function initializeGame() {
             selectedWord = selectRandomWord();
             guessedWord = Array(selectedWord.length).fill('_');
-            guessesLeft = 6;
+            guessesLeft = selectedWord.length;
             updateDisplay();
         }
         function updateDisplay() {
@@ -168,8 +168,22 @@ course: Games & Projects
 
 <html>
 <head>
-    <title>Tic-Tac-Toe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .game-container {
+            text-align: center;
+        }
         .container {
             display: inline-grid;
             grid-template-columns: repeat(3, 100px);
@@ -180,7 +194,7 @@ course: Games & Projects
             width: 100px;
             height: 100px;
             font-size: 24px;
-            /* text-align: right; */
+            text-align: center;
             vertical-align: middle;
             border: 2px solid #333;
             cursor: pointer;
@@ -188,19 +202,23 @@ course: Games & Projects
     </style>
 </head>
 <body>
-    <h1 class="centered">Tic-Tac-Toe</h1>
-    <div class="container" style="padding-left:470px">
-        <div class="cell" onclick="makeMove(0)"></div>
-        <div class="cell" onclick="makeMove(1)"></div>
-        <div class="cell" onclick="makeMove(2)"></div>
-        <div class="cell" onclick="makeMove(3)"></div>
-        <div class="cell" onclick="makeMove(4)"></div>
-        <div class="cell" onclick="makeMove(5)"></div>
-        <div class="cell" onclick="makeMove(6)"></div>
-        <div class="cell" onclick="makeMove(7)"></div>
-        <div class="cell" onclick="makeMove(8)"></div>
+    <div class="game-container">
+        <h1>Tic Tac Toe</h1>
+        <div class="container" id="board" style="padding-left:170px">
+            <div class="cell" onclick="makeMove(0)"></div>
+            <div class="cell" onclick="makeMove(1)"></div>
+            <div class="cell" onclick="makeMove(2)"></div>
+            <div class="cell" onclick="makeMove(3)"></div>
+            <div class="cell" onclick="makeMove(4)"></div>
+            <div class="cell" onclick="makeMove(5)"></div>
+            <div class="cell" onclick="makeMove(6)"></div>
+            <div class="cell" onclick="makeMove(7)"></div>
+            <div class="cell" onclick="makeMove(8)"></div>
+        </div>
+        <p id="message"></p>
     </div>
     <script>
+        // Your JavaScript code here
     </script>
 </body>
 </html>
